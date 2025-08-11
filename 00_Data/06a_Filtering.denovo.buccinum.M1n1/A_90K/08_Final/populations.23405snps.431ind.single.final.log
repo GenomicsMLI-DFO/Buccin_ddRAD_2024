@@ -1,0 +1,40 @@
+PLINK v1.90b6.24 64-bit (6 Jun 2021)
+Options in effect:
+  --make-bed
+  --out ./00_Data/06a_Filtering.denovo.buccinum.M1n1/A_90K/08_Final/populations.23405snps.431ind.single.final
+  --tfam ./00_Data/06a_Filtering.denovo.buccinum.M1n1/A_90K/08_Final/populations.23405snps.431ind.single.final.tfam
+  --tped ./00_Data/06a_Filtering.denovo.buccinum.M1n1/A_90K/08_Final/populations.23405snps.431ind.single.final.tped
+
+Hostname: genyoda-Precision-7920-Tower
+Working directory: /media/genyoda/Extra_Storage/Projets/Buccin_ddRAD_2024
+Start time: Thu Jun 13 11:28:56 2024
+
+Random number seed: 1718292536
+772647 MB RAM detected; reserving 386323 MB for main workspace.
+Processing .tped file.
+./00_Data/06a_Filtering.denovo.buccinum.M1n1/A_90K/08_Final/populations.23405snps.431ind.single.final-temporary.bed
++
+./00_Data/06a_Filtering.denovo.buccinum.M1n1/A_90K/08_Final/populations.23405snps.431ind.single.final-temporary.bim
++
+./00_Data/06a_Filtering.denovo.buccinum.M1n1/A_90K/08_Final/populations.23405snps.431ind.single.final-temporary.fam
+written.
+23405 variants loaded from .bim file.
+431 people (0 males, 0 females, 431 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+./00_Data/06a_Filtering.denovo.buccinum.M1n1/A_90K/08_Final/populations.23405snps.431ind.single.final.nosex
+.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 431 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.950833.
+23405 variants and 431 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to
+./00_Data/06a_Filtering.denovo.buccinum.M1n1/A_90K/08_Final/populations.23405snps.431ind.single.final.bed
++
+./00_Data/06a_Filtering.denovo.buccinum.M1n1/A_90K/08_Final/populations.23405snps.431ind.single.final.bim
++
+./00_Data/06a_Filtering.denovo.buccinum.M1n1/A_90K/08_Final/populations.23405snps.431ind.single.final.fam
+... done.
+
+End time: Thu Jun 13 11:28:57 2024

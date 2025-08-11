@@ -1,0 +1,17 @@
+
+
+--vcf /media/genyoda/Extra_Storage/Projets/Buccin_ddRAD_2024/00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/06_Sex/populations.95718snps.431ind.H06.all.recode.vcf --relatedness2
+
+
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf /media/genyoda/Extra_Storage/Projets/Buccin_ddRAD_2024/00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/06_Sex/populations.95718snps.431ind.H06.all.recode.vcf
+	--relatedness2
+
+After filtering, kept 431 out of 431 Individuals
+Outputting Individual Relatedness
+After filtering, kept 95718 out of a possible 95718 Sites
+Run Time = 82.00 seconds

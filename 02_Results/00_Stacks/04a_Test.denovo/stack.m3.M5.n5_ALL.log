@@ -1,0 +1,49 @@
+--samples ./00_Data/03a_Demultiplex --popmap ./00_Data/00_FileInfos/popmap.test_ALL.txt -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M5.n5 -M 5 -n 5 -m 3 --paired -T 8 -X "populations:-r 0.80"
+
+
+
+Parsed population map: 11 files in 1 population and 1 group.
+Found 11 sample file(s).
+
+Indentifying unique stacks...
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_01110.1.fq.gz -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M5.n5 -i 1 -m 3 --name S_23_01110 -M 5 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02014.1.fq.gz -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M5.n5 -i 2 -m 3 --name S_23_02014 -M 5 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02021.1.fq.gz -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M5.n5 -i 3 -m 3 --name S_23_02021 -M 5 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02076.1.fq.gz -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M5.n5 -i 4 -m 3 --name S_23_02076 -M 5 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02077.1.fq.gz -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M5.n5 -i 5 -m 3 --name S_23_02077 -M 5 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02079.1.fq.gz -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M5.n5 -i 6 -m 3 --name S_23_02079 -M 5 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02086.1.fq.gz -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M5.n5 -i 7 -m 3 --name S_23_02086 -M 5 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02088.1.fq.gz -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M5.n5 -i 8 -m 3 --name S_23_02088 -M 5 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02090.1.fq.gz -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M5.n5 -i 9 -m 3 --name S_23_02090 -M 5 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02093.1.fq.gz -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M5.n5 -i 10 -m 3 --name S_23_02093 -M 5 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02094.1.fq.gz -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M5.n5 -i 11 -m 3 --name S_23_02094 -M 5 -p 8
+
+Depths of Coverage for Processed Samples:
+S_23_01110; loci assembled: 35323; depth: 7.26x; max: 1015x; number of reads: 248912 (45.4%)
+S_23_02014; loci assembled: 128295; depth: 14.45x; max: 956x; number of reads: 1803455 (45.7%)
+S_23_02021; loci assembled: 122070; depth: 12.34x; max: 2328x; number of reads: 1466220 (45.8%)
+S_23_02076; loci assembled: 3426; depth: 8.01x; max: 445x; number of reads: 26580 (38.3%)
+S_23_02077; loci assembled: 94323; depth: 9.92x; max: 921x; number of reads: 914017 (47.9%)
+S_23_02079; loci assembled: 83953; depth: 8.91x; max: 1751x; number of reads: 730035 (46.1%)
+S_23_02086; loci assembled: 112692; depth: 10.95x; max: 1463x; number of reads: 1201504 (42.8%)
+S_23_02088; loci assembled: 136132; depth: 22.25x; max: 1765x; number of reads: 2942187 (42.4%)
+S_23_02090; loci assembled: 85849; depth: 9.04x; max: 1227x; number of reads: 755462 (41.8%)
+S_23_02093; loci assembled: 30562; depth: 7.42x; max: 886x; number of reads: 220397 (42.5%)
+S_23_02094; loci assembled: 87097; depth: 10.04x; max: 1322x; number of reads: 854149 (46.4%)
+
+Generating catalog...
+  /usr/local/bin/cstacks -M ./00_Data/00_FileInfos/popmap.test_ALL.txt -n 5 -p 8 -P ./00_Data/04a_Test.denovo.ALL/stack.m3.M5.n5
+
+Matching samples to the catalog...
+  /usr/local/bin/sstacks -P ./00_Data/04a_Test.denovo.ALL/stack.m3.M5.n5 -M ./00_Data/00_FileInfos/popmap.test_ALL.txt -p 8
+
+Sorting reads by RAD locus...
+  /usr/local/bin/tsv2bam -P ./00_Data/04a_Test.denovo.ALL/stack.m3.M5.n5  -M ./00_Data/00_FileInfos/popmap.test_ALL.txt -t 8 -R ./00_Data/03a_Demultiplex/
+
+Calling variants, genotypes and haplotypes...
+  /usr/local/bin/gstacks -P ./00_Data/04a_Test.denovo.ALL/stack.m3.M5.n5 -M ./00_Data/00_FileInfos/popmap.test_ALL.txt -t 8
+
+Calculating population-level summary statistics
+  /usr/local/bin/populations -P ./00_Data/04a_Test.denovo.ALL/stack.m3.M5.n5 -M ./00_Data/00_FileInfos/popmap.test_ALL.txt -t 8 -r 0.80
+
+denovo_map.pl is done.

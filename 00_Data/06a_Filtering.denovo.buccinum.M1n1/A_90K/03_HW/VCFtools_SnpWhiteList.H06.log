@@ -1,0 +1,38 @@
+
+
+--vcf 00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/02_MissingData/populations.100393snps.431ind.recode.vcf --recode --snps /media/genyoda/Extra_Storage/Projets/Buccin_ddRAD_2024/00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/03_HW/Loc.h06.unique.csv --out /media/genyoda/Extra_Storage/Projets/Buccin_ddRAD_2024/00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/03_HW/populations.47673snps.431ind.H06.single
+
+
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf 00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/02_MissingData/populations.100393snps.431ind.recode.vcf
+	--out /media/genyoda/Extra_Storage/Projets/Buccin_ddRAD_2024/00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/03_HW/populations.47673snps.431ind.H06.single
+	--recode
+	--snps /media/genyoda/Extra_Storage/Projets/Buccin_ddRAD_2024/00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/03_HW/Loc.h06.unique.csv
+
+After filtering, kept 431 out of 431 Individuals
+Outputting VCF file...
+After filtering, kept 47673 out of a possible 100393 Sites
+Run Time = 29.00 seconds
+
+
+--vcf 00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/02_MissingData/populations.100393snps.431ind.recode.vcf --recode --snps /media/genyoda/Extra_Storage/Projets/Buccin_ddRAD_2024/00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/03_HW/Loc.h06.all.csv --out /media/genyoda/Extra_Storage/Projets/Buccin_ddRAD_2024/00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/03_HW/populations.98582snps.431ind.h06.all
+
+
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf 00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/02_MissingData/populations.100393snps.431ind.recode.vcf
+	--out /media/genyoda/Extra_Storage/Projets/Buccin_ddRAD_2024/00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/03_HW/populations.98582snps.431ind.h06.all
+	--recode
+	--snps /media/genyoda/Extra_Storage/Projets/Buccin_ddRAD_2024/00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/03_HW/Loc.h06.all.csv
+
+After filtering, kept 431 out of 431 Individuals
+Outputting VCF file...
+After filtering, kept 98582 out of a possible 100393 Sites
+Run Time = 57.00 seconds

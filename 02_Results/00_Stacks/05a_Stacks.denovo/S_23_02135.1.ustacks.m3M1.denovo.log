@@ -1,0 +1,51 @@
+
+
+-t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02135.1.fq.gz -o 00_Data/05a_Stacks.denovo.ALL.M1n1/ -i 444 -m 3 --name S_23_02135 -M 1 -p 8
+
+
+ustacks parameters selected:
+  Input file: './00_Data/03a_Demultiplex/S_23_02135.1.fq.gz'
+  Sample ID: 444
+  Min depth of coverage to create a stack (m): 3
+  Repeat removal algorithm: enabled
+  Max distance allowed between stacks (M): 1
+  Max distance allowed to align secondary reads: 3
+  Max number of stacks allowed per de novo locus: 3
+  Deleveraging algorithm: disabled
+  Gapped assembly: enabled
+  Minimum alignment length: 0.8
+  Model type: SNP
+  Alpha significance level for model: 0.05
+
+Loading RAD-Tags...1M...2M...3M...4M...5M...6M...7M...8M...9M...10M...11M...12M...
+
+Loaded 12551412 reads; formed:
+  239974 stacks representing 11809445 primary reads (94.1%)
+  681666 secondary stacks representing 741967 secondary reads (5.9%)
+
+Stack coverage: mean=49.21; stdev=694.04; max=141589; n_reads=11809445(94.1%)
+Removing repetitive stacks: cov > 2132 (mean+3*stdev)...
+  Blacklisted 14697 stacks.
+Coverage after repeat removal: mean=36.00; stdev=67.82; max=2130; n_reads=8110042(64.6%)
+
+Assembling stacks (max. dist. M=1)...
+  Assembled 225277 stacks into 179300; blacklisted 2826 stacks.
+Coverage after assembling stacks: mean=36.38; stdev=38.88; max=1861; n_reads=6411137(51.1%)
+
+Merging secondary stacks (max. dist. N=3 from consensus)...
+  Merged 341273 out of 741967 secondary reads (46.0%), 15473 merged with gapped alignments.
+Coverage after merging secondary stacks: mean=38.32; stdev=40.09; max=1903; n_reads=6752410(53.8%)
+
+Assembling stacks, allowing for gaps (min. match length 80.0%)...
+  Assembled 179300 stacks into 174415 stacks.
+Coverage after gapped assembly: mean=39.41; stdev=40.89; max=1903; n_reads=6752410(53.8%)
+
+Merging secondary stacks, allowing for gaps (min. match length 80.0%)...
+  Merged 22958 out of 400694 secondary reads (5.7%).
+Coverage after merging gapped secondary stacks: mean=39.55; stdev=40.90; max=1903; n_reads=6775368(54.0%)
+
+Final number of stacks built: 174415
+Final coverage: mean=39.55; stdev=40.90; max=1903; n_reads=6775368(54.0%)
+Calling consensus sequences and haplotypes for catalog assembly...
+Writing tags, SNPs, and alleles files to '00_Data/05a_Stacks.denovo.ALL.M1n1/S_23_02135'...done.
+ustacks is done.

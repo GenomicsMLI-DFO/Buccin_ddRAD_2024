@@ -1,0 +1,17 @@
+
+
+--vcf /media/genyoda/Extra_Storage/Projets/Buccin_ddRAD_2024/00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/02_MissingData/populations.snps.431ind.vcf.recode.vcf --missing-site
+
+
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf /media/genyoda/Extra_Storage/Projets/Buccin_ddRAD_2024/00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/02_MissingData/populations.snps.431ind.vcf.recode.vcf
+	--missing-site
+
+After filtering, kept 431 out of 431 Individuals
+Outputting Site Missingness
+After filtering, kept 161785 out of a possible 161785 Sites
+Run Time = 8.00 seconds

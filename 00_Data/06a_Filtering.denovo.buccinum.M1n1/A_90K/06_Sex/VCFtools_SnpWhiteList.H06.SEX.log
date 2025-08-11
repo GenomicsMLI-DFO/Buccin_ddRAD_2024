@@ -1,0 +1,19 @@
+
+
+--vcf 00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/05_BatchEffect/populations.96095snps.431ind.H06.all.recode.vcf --recode --snps 00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/06_Sex/Loc.H06.all.SEX.csv --out 00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/06_Sex/populations.95718snps.431ind.H06.all
+
+
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf 00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/05_BatchEffect/populations.96095snps.431ind.H06.all.recode.vcf
+	--out 00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/06_Sex/populations.95718snps.431ind.H06.all
+	--recode
+	--snps 00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/06_Sex/Loc.H06.all.SEX.csv
+
+After filtering, kept 431 out of 431 Individuals
+Outputting VCF file...
+After filtering, kept 95718 out of a possible 96095 Sites
+Run Time = 54.00 seconds

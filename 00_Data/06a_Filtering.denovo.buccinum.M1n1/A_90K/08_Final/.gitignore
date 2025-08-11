@@ -1,0 +1,6 @@
+*
+*.vcf
+*.Rdata
+!.gitignore
+!*.csv
+!*.log

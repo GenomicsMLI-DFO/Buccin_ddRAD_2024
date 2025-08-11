@@ -1,0 +1,5 @@
+*
+out.relatedness2
+!*.log
+!*.pgn
+!.gitignore

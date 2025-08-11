@@ -1,0 +1,63 @@
+--samples ./00_Data/03a_Demultiplex --popmap ./00_Data/00_FileInfos/popmap.test_undatum.txt -o ./00_Data/04a_Test.denovo/stack.m4.M4.n3 -M 4 -n 3 -m 4 --paired -T 8 -X "populations:-r 0.80"
+
+
+
+Parsed population map: 18 files in 1 population and 1 group.
+Found 18 sample file(s).
+
+Indentifying unique stacks...
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_00987.1.fq.gz -o ./00_Data/04a_Test.denovo/stack.m4.M4.n3 -i 1 -m 4 --name S_23_00987 -M 4 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_01153.1.fq.gz -o ./00_Data/04a_Test.denovo/stack.m4.M4.n3 -i 2 -m 4 --name S_23_01153 -M 4 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_01205.1.fq.gz -o ./00_Data/04a_Test.denovo/stack.m4.M4.n3 -i 3 -m 4 --name S_23_01205 -M 4 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_01268.1.fq.gz -o ./00_Data/04a_Test.denovo/stack.m4.M4.n3 -i 4 -m 4 --name S_23_01268 -M 4 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_01871.1.fq.gz -o ./00_Data/04a_Test.denovo/stack.m4.M4.n3 -i 5 -m 4 --name S_23_01871 -M 4 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_01893.1.fq.gz -o ./00_Data/04a_Test.denovo/stack.m4.M4.n3 -i 6 -m 4 --name S_23_01893 -M 4 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_01927.1.fq.gz -o ./00_Data/04a_Test.denovo/stack.m4.M4.n3 -i 7 -m 4 --name S_23_01927 -M 4 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02007.1.fq.gz -o ./00_Data/04a_Test.denovo/stack.m4.M4.n3 -i 8 -m 4 --name S_23_02007 -M 4 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02111.1.fq.gz -o ./00_Data/04a_Test.denovo/stack.m4.M4.n3 -i 9 -m 4 --name S_23_02111 -M 4 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02117.1.fq.gz -o ./00_Data/04a_Test.denovo/stack.m4.M4.n3 -i 10 -m 4 --name S_23_02117 -M 4 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02142.1.fq.gz -o ./00_Data/04a_Test.denovo/stack.m4.M4.n3 -i 11 -m 4 --name S_23_02142 -M 4 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02148.1.fq.gz -o ./00_Data/04a_Test.denovo/stack.m4.M4.n3 -i 12 -m 4 --name S_23_02148 -M 4 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02165.1.fq.gz -o ./00_Data/04a_Test.denovo/stack.m4.M4.n3 -i 13 -m 4 --name S_23_02165 -M 4 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02170.1.fq.gz -o ./00_Data/04a_Test.denovo/stack.m4.M4.n3 -i 14 -m 4 --name S_23_02170 -M 4 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02185.1.fq.gz -o ./00_Data/04a_Test.denovo/stack.m4.M4.n3 -i 15 -m 4 --name S_23_02185 -M 4 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02191.1.fq.gz -o ./00_Data/04a_Test.denovo/stack.m4.M4.n3 -i 16 -m 4 --name S_23_02191 -M 4 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02239.1.fq.gz -o ./00_Data/04a_Test.denovo/stack.m4.M4.n3 -i 17 -m 4 --name S_23_02239 -M 4 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02257.1.fq.gz -o ./00_Data/04a_Test.denovo/stack.m4.M4.n3 -i 18 -m 4 --name S_23_02257 -M 4 -p 8
+
+Depths of Coverage for Processed Samples:
+S_23_00987; loci assembled: 106249; depth: 14.56x; max: 1301x; number of reads: 1506952 (46.9%)
+S_23_01153; loci assembled: 118691; depth: 15.44x; max: 1237x; number of reads: 1787742 (45.6%)
+S_23_01205; loci assembled: 115131; depth: 16.18x; max: 2472x; number of reads: 1816450 (46.9%)
+S_23_01268; loci assembled: 121566; depth: 14.98x; max: 2091x; number of reads: 1775717 (46.7%)
+S_23_01871; loci assembled: 114898; depth: 13.74x; max: 1097x; number of reads: 1541278 (48.3%)
+S_23_01893; loci assembled: 56402; depth: 9.64x; max: 1721x; number of reads: 529863 (42.6%)
+S_23_01927; loci assembled: 99092; depth: 12.58x; max: 787x; number of reads: 1216555 (45.2%)
+S_23_02007; loci assembled: 59921; depth: 9.76x; max: 1545x; number of reads: 569952 (44.9%)
+S_23_02111; loci assembled: 139090; depth: 32.09x; max: 2255x; number of reads: 4344294 (45.6%)
+S_23_02117; loci assembled: 123252; depth: 16.43x; max: 2453x; number of reads: 1973963 (45.6%)
+S_23_02142; loci assembled: 87041; depth: 11.84x; max: 840x; number of reads: 1004568 (46.4%)
+S_23_02148; loci assembled: 116035; depth: 16.53x; max: 2350x; number of reads: 1870090 (46.5%)
+S_23_02165; loci assembled: 110566; depth: 15.02x; max: 1373x; number of reads: 1619891 (45.8%)
+S_23_02170; loci assembled: 110565; depth: 12.65x; max: 731x; number of reads: 1364443 (45.5%)
+S_23_02185; loci assembled: 76468; depth: 12.06x; max: 833x; number of reads: 899321 (46.3%)
+S_23_02191; loci assembled: 76303; depth: 10.52x; max: 2086x; number of reads: 783310 (43.7%)
+S_23_02239; loci assembled: 109992; depth: 12.33x; max: 1597x; number of reads: 1323600 (46.0%)
+S_23_02257; loci assembled: 123252; depth: 14.70x; max: 1602x; number of reads: 1765854 (45.7%)
+
+Generating catalog...
+  /usr/local/bin/cstacks -M ./00_Data/00_FileInfos/popmap.test_undatum.txt -n 3 -p 8 -P ./00_Data/04a_Test.denovo/stack.m4.M4.n3
+
+Matching samples to the catalog...
+  /usr/local/bin/sstacks -P ./00_Data/04a_Test.denovo/stack.m4.M4.n3 -M ./00_Data/00_FileInfos/popmap.test_undatum.txt -p 8
+
+Sorting reads by RAD locus...
+  /usr/local/bin/tsv2bam -P ./00_Data/04a_Test.denovo/stack.m4.M4.n3  -M ./00_Data/00_FileInfos/popmap.test_undatum.txt -t 8 -R ./00_Data/03a_Demultiplex/
+
+Calling variants, genotypes and haplotypes...
+  /usr/local/bin/gstacks -P ./00_Data/04a_Test.denovo/stack.m4.M4.n3 -M ./00_Data/00_FileInfos/popmap.test_undatum.txt -t 8
+
+Calculating population-level summary statistics
+  /usr/local/bin/populations -P ./00_Data/04a_Test.denovo/stack.m4.M4.n3 -M ./00_Data/00_FileInfos/popmap.test_undatum.txt -t 8 -r 0.80
+
+denovo_map.pl is done.

@@ -1,0 +1,35 @@
+
+
+--cv /media/genyoda/Extra_Storage/Projets/Buccin_ddRAD_2024/./00_Data/06a_Filtering.denovo.buccinum.M1n1/A_90K/08_Final/populations.23405snps.431ind.single.final.bed 1 -j8
+
+
+****                   ADMIXTURE Version 1.3.0                  ****
+****                    Copyright 2008-2015                     ****
+****           David Alexander, Suyash Shringarpure,            ****
+****                John  Novembre, Ken Lange                   ****
+****                                                            ****
+****                 Please cite our paper!                     ****
+****   Information at www.genetics.ucla.edu/software/admixture  ****
+
+Cross-validation will be performed.  Folds=5.
+Parallel execution requested.  Will use 8 threads.
+Random seed: 43
+Point estimation method: Block relaxation algorithm
+Convergence acceleration algorithm: QuasiNewton, 3 secant conditions
+Point estimation will terminate when objective function delta < 0.0001
+Estimation of standard errors disabled; will compute point estimates only.
+Size of G: 431x23405
+Performing five EM steps to prime main algorithm
+1 (EM) 	Elapsed: 0.196	Loglikelihood: -7.85569e+06	(delta): 1.14539e+07
+2 (EM) 	Elapsed: 0.2	Loglikelihood: -7.85569e+06	(delta): 0
+3 (EM) 	Elapsed: 0.199	Loglikelihood: -7.85569e+06	(delta): 0
+4 (EM) 	Elapsed: 0.198	Loglikelihood: -7.85569e+06	(delta): 0
+5 (EM) 	Elapsed: 0.198	Loglikelihood: -7.85569e+06	(delta): 0
+Initial loglikelihood: -7.85569e+06
+Starting main algorithm
+1 (QN/Block) 	Elapsed: 0.758	Loglikelihood: -7.85569e+06	(delta): 9.31323e-10
+Summary: 
+Converged in 1 iterations (1.897 sec)
+Loglikelihood: -7855685.815630
+CV error (K=1): 0.48813
+Writing output files.

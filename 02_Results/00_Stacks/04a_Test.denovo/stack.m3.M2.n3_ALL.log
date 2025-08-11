@@ -1,0 +1,22 @@
+--samples ./00_Data/03a_Demultiplex --popmap ./00_Data/00_FileInfos/popmap.test_ALL.txt -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M2.n3 -M 2 -n 3 -m 3 --paired -T 8 -X "populations:-r 0.80"
+
+
+
+Parsed population map: 12 files in 1 population and 1 group.
+Found 12 sample file(s).
+
+Indentifying unique stacks...
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_01110.1.fq.gz -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M2.n3 -i 1 -m 3 --name S_23_01110 -M 2 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02014.1.fq.gz -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M2.n3 -i 2 -m 3 --name S_23_02014 -M 2 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02021.1.fq.gz -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M2.n3 -i 3 -m 3 --name S_23_02021 -M 2 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02076.1.fq.gz -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M2.n3 -i 4 -m 3 --name S_23_02076 -M 2 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02077.1.fq.gz -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M2.n3 -i 5 -m 3 --name S_23_02077 -M 2 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02079.1.fq.gz -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M2.n3 -i 6 -m 3 --name S_23_02079 -M 2 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02086.1.fq.gz -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M2.n3 -i 7 -m 3 --name S_23_02086 -M 2 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02088.1.fq.gz -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M2.n3 -i 8 -m 3 --name S_23_02088 -M 2 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02090.1.fq.gz -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M2.n3 -i 9 -m 3 --name S_23_02090 -M 2 -p 8
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02091.1.fq.gz -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M2.n3 -i 10 -m 3 --name S_23_02091 -M 2 -p 8
+
+denovo_map.pl: Aborted because the last command failed (1); see denovo_map.log file.
+Last command executed by denovo_map.pl was:
+  /usr/local/bin/ustacks -t gzfastq -f ./00_Data/03a_Demultiplex/S_23_02091.1.fq.gz -o ./00_Data/04a_Test.denovo.ALL/stack.m3.M2.n3 -i 10 -m 3 --name S_23_02091 -M 2 -p 8

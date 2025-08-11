@@ -1,0 +1,38 @@
+gstacks v2.64, executed 2024-06-12 08:43:32 (zlib-1.2.11)
+gstacks -P 00_Data/05a_Stacks.denovo.buccinum.M1n1/ -M ./00_Data/00_FileInfos/popmap_sstacks_buccinum_M1n1.txt -t 8
+Locus/sample distributions will be written to '00_Data/05a_Stacks.denovo.buccinum.M1n1/gstacks.log.distribs'.
+
+Configuration for this run:
+  Input mode: denovo
+  Population map: './00_Data/00_FileInfos/popmap_sstacks_buccinum_M1n1.txt'
+  Input files: 535, e.g. '00_Data/05a_Stacks.denovo.buccinum.M1n1/S_23_00979.matches.bam'
+  Output to: '00_Data/05a_Stacks.denovo.buccinum.M1n1/'
+  Model: marukilow (var_alpha: 0.01, gt_alpha: 0.05)
+
+Reading BAM headers...
+Processing all loci...
+1%...
+2%...
+5%...
+10%...
+20%...
+50%...
+100%
+
+Attempted to assemble and align paired-end reads for 1023765 loci:
+  0 loci had no or almost no paired-end reads (0.0%);
+  77758 loci had paired-end reads that couldn't be assembled into a contig (7.6%);
+  For the remaining 946007 loci (92.4%), a paired-end contig was assembled;
+    Average contig size was 173.5 bp;
+  305661 paired-end contigs overlapped the forward region (32.3%)
+    Mean overlap: 26.7bp; mean size of overlapped loci after merging: 138.3;
+  Out of 2046467502 paired-end reads in these loci (mean 2137.5 reads per locus),
+    2022056144 were successfuly aligned (98.8%);
+  Mean insert length was 131.2, stdev: 25.6 (based on aligned reads in overlapped loci).
+
+Genotyped 944612 loci:
+  effective per-sample coverage: mean=16.2x, stdev=7.5x, min=3.5x, max=42.9x
+  mean number of sites per locus: 166.9
+  a consistent phasing was found for 3740857 of out 5967161 (62.7%) diploid loci needing phasing
+
+gstacks is done.

@@ -1,0 +1,11 @@
+# Overview of treemix files for Buccinum undatum project
+# June 2025
+
+
+Buccinum_treemix_plots.r - Code to pull in treemix output for Buccinum and visualize alternative trees
+plotting_funcs.r - These are scripts from treemix that can be called to visualize your output in R
+
+treemix_buccinum_input.gz - This is the input file to run treemix on a Unix system
+f3_output_sorted.xlsx - This Excel file has all of the output from the f3 test run in Treemix
+
+treemix_output - This subfolder contains all of the Buccinum treemix output files for 0 --> 3 migration events.

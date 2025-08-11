@@ -1,0 +1,44 @@
+index -p ./00_Data/99_REF_Genome/Babylonia_areolata_GCA_011634625.1_BA9_1.0_genomic -a bwtsw ./00_Data/99_REF_Genome/Babylonia_areolata_GCA_011634625.1_BA9_1.0_genomic.fna
+
+
+
+[bwa_index] Pack FASTA... 6.66 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=2216790010, availableWord=167981204
+[BWTIncConstructFromPacked] 10 iterations done. 99999994 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 199999994 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 299999994 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 399999994 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 499999994 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 599999994 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 699999994 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 799999994 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 899999994 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 999999994 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 1099999994 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 1199999994 characters processed.
+[BWTIncConstructFromPacked] 130 iterations done. 1299999994 characters processed.
+[BWTIncConstructFromPacked] 140 iterations done. 1399999994 characters processed.
+[BWTIncConstructFromPacked] 150 iterations done. 1499999994 characters processed.
+[BWTIncConstructFromPacked] 160 iterations done. 1597939258 characters processed.
+[BWTIncConstructFromPacked] 170 iterations done. 1685843770 characters processed.
+[BWTIncConstructFromPacked] 180 iterations done. 1763969514 characters processed.
+[BWTIncConstructFromPacked] 190 iterations done. 1833403866 characters processed.
+[BWTIncConstructFromPacked] 200 iterations done. 1895113274 characters processed.
+[BWTIncConstructFromPacked] 210 iterations done. 1949956762 characters processed.
+[BWTIncConstructFromPacked] 220 iterations done. 1998697786 characters processed.
+[BWTIncConstructFromPacked] 230 iterations done. 2042014890 characters processed.
+[BWTIncConstructFromPacked] 240 iterations done. 2080511242 characters processed.
+[BWTIncConstructFromPacked] 250 iterations done. 2114722874 characters processed.
+[BWTIncConstructFromPacked] 260 iterations done. 2145126218 characters processed.
+[BWTIncConstructFromPacked] 270 iterations done. 2172144730 characters processed.
+[BWTIncConstructFromPacked] 280 iterations done. 2196154826 characters processed.
+[BWTIncConstructFromPacked] 290 iterations done. 2216790010 characters processed.
+[bwt_gen] Finished constructing BWT in 290 iterations.
+[bwa_index] 759.73 seconds elapse.
+[bwa_index] Update BWT... 6.79 sec
+[bwa_index] Pack forward-only FASTA... 4.22 sec
+[bwa_index] Construct SA from BWT and Occ... 451.64 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index -p ./00_Data/99_REF_Genome/Babylonia_areolata_GCA_011634625.1_BA9_1.0_genomic -a bwtsw ./00_Data/99_REF_Genome/Babylonia_areolata_GCA_011634625.1_BA9_1.0_genomic.fna
+[main] Real time: 1240.357 sec; CPU: 1229.041 sec

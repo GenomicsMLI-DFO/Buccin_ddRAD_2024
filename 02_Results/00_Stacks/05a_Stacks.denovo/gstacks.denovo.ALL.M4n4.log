@@ -1,0 +1,42 @@
+
+
+-P 00_Data/05a_Stacks.denovo.ALL.M4n4/ -M ./00_Data/00_FileInfos/popmap_sstacks_ALL_M4n4.txt -t 8
+
+
+Logging to '00_Data/05a_Stacks.denovo.ALL.M4n4/gstacks.log'.
+Locus/sample distributions will be written to '00_Data/05a_Stacks.denovo.ALL.M4n4/gstacks.log.distribs'.
+
+Configuration for this run:
+  Input mode: denovo
+  Population map: './00_Data/00_FileInfos/popmap_sstacks_ALL_M4n4.txt'
+  Input files: 551, e.g. '00_Data/05a_Stacks.denovo.ALL.M4n4/S_23_00979.matches.bam'
+  Output to: '00_Data/05a_Stacks.denovo.ALL.M4n4/'
+  Model: marukilow (var_alpha: 0.01, gt_alpha: 0.05)
+
+Reading BAM headers...
+Processing all loci...
+1%...
+2%...
+5%...
+10%...
+20%...
+50%...
+100%
+
+Attempted to assemble and align paired-end reads for 685405 loci:
+  0 loci had no or almost no paired-end reads (0.0%);
+  56472 loci had paired-end reads that couldn't be assembled into a contig (8.2%);
+  For the remaining 628933 loci (91.8%), a paired-end contig was assembled;
+    Average contig size was 170.5 bp;
+  235240 paired-end contigs overlapped the forward region (37.4%)
+    Mean overlap: 27.3bp; mean size of overlapped loci after merging: 135.9;
+  Out of 1600856350 paired-end reads in these loci (mean 2506.8 reads per locus),
+    1576635362 were successfuly aligned (98.5%);
+  Mean insert length was 131.8, stdev: 27.1 (based on aligned reads in overlapped loci).
+
+Genotyped 628229 loci:
+  effective per-sample coverage: mean=16.2x, stdev=7.5x, min=3.0x, max=43.3x
+  mean number of sites per locus: 164.4
+  a consistent phasing was found for 3573475 of out 5503914 (64.9%) diploid loci needing phasing
+
+gstacks is done.

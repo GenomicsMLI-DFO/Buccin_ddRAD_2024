@@ -1,0 +1,51 @@
+
+
+-t gzfastq -f ./00_Data/03a_Demultiplex/S_23_01063.1.fq.gz -o 00_Data/05a_Stacks.denovo.ALL.M4n4/ -i 55 -m 3 --name S_23_01063 -M 4 -p 8
+
+
+ustacks parameters selected:
+  Input file: './00_Data/03a_Demultiplex/S_23_01063.1.fq.gz'
+  Sample ID: 55
+  Min depth of coverage to create a stack (m): 3
+  Repeat removal algorithm: enabled
+  Max distance allowed between stacks (M): 4
+  Max distance allowed to align secondary reads: 6
+  Max number of stacks allowed per de novo locus: 3
+  Deleveraging algorithm: disabled
+  Gapped assembly: enabled
+  Minimum alignment length: 0.8
+  Model type: SNP
+  Alpha significance level for model: 0.05
+
+Loading RAD-Tags...
+
+Loaded 430 reads; formed:
+  26 stacks representing 106 primary reads (24.7%)
+  283 secondary stacks representing 324 secondary reads (75.3%)
+
+Stack coverage: mean=4.08; stdev=2.13; max=12; n_reads=106(24.7%)
+Removing repetitive stacks: cov > 11 (mean+3*stdev)...
+  Blacklisted 1 stacks.
+Coverage after repeat removal: mean=3.76; stdev=1.45; max=9; n_reads=94(21.9%)
+
+Assembling stacks (max. dist. M=4)...
+  Assembled 25 stacks into 26; blacklisted 0 stacks.
+Coverage after assembling stacks: mean=3.76; stdev=1.45; max=9; n_reads=94(21.9%)
+
+Merging secondary stacks (max. dist. N=6 from consensus)...
+  Merged 3 out of 324 secondary reads (0.9%), 0 merged with gapped alignments.
+Coverage after merging secondary stacks: mean=3.88; stdev=1.61; max=10; n_reads=97(22.6%)
+
+Assembling stacks, allowing for gaps (min. match length 80.0%)...
+  Assembled 26 stacks into 26 stacks.
+Coverage after gapped assembly: mean=3.88; stdev=1.61; max=10; n_reads=97(22.6%)
+
+Merging secondary stacks, allowing for gaps (min. match length 80.0%)...
+  Merged 3 out of 321 secondary reads (0.9%).
+Coverage after merging gapped secondary stacks: mean=4.00; stdev=1.70; max=10; n_reads=100(23.3%)
+
+Final number of stacks built: 26
+Final coverage: mean=4.00; stdev=1.70; max=10; n_reads=100(23.3%)
+Calling consensus sequences and haplotypes for catalog assembly...
+Writing tags, SNPs, and alleles files to '00_Data/05a_Stacks.denovo.ALL.M4n4/S_23_01063'...done.
+ustacks is done.

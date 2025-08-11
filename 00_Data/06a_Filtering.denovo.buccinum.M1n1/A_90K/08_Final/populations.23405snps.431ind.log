@@ -1,0 +1,13 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf populations.23405snps.431ind.single.final.recode.vcf
+	--het
+	--out populations.23405snps.431ind
+
+After filtering, kept 431 out of 431 Individuals
+Outputting Individual Heterozygosity
+After filtering, kept 23405 out of a possible 23405 Sites
+Run Time = 2.00 seconds

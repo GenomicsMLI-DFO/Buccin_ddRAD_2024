@@ -1,0 +1,19 @@
+
+
+--vcf /media/genyoda/Extra_Storage/Projets/Buccin_ddRAD_2024/00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/03_HW/populations.98582snps.431ind.h06.all.recode.vcf --recode --snps /media/genyoda/Extra_Storage/Projets/Buccin_ddRAD_2024/00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/04_DP/Loc.H06.all.DP.csv --out /media/genyoda/Extra_Storage/Projets/Buccin_ddRAD_2024/00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/04_DP/populations.97819snps.431ind.H06.all
+
+
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf /media/genyoda/Extra_Storage/Projets/Buccin_ddRAD_2024/00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/03_HW/populations.98582snps.431ind.h06.all.recode.vcf
+	--out /media/genyoda/Extra_Storage/Projets/Buccin_ddRAD_2024/00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/04_DP/populations.97819snps.431ind.H06.all
+	--recode
+	--snps /media/genyoda/Extra_Storage/Projets/Buccin_ddRAD_2024/00_Data/06a_Filtering.denovo.buccinum.M1n1//A_90K/04_DP/Loc.H06.all.DP.csv
+
+After filtering, kept 431 out of 431 Individuals
+Outputting VCF file...
+After filtering, kept 97819 out of a possible 98582 Sites
+Run Time = 57.00 seconds
